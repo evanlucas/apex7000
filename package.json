@@ -1,0 +1,29 @@
+{
+  "name": "apex7000",
+  "version": "1.0.0",
+  "description": "package for interfacing with the Apex 7000 bill acceptor",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "~2.2.0",
+    "serialport": "~1.7.4"
+  },
+  "devDependencies": {
+    "tap": "~1.3.1"
+  },
+  "license": "MIT",
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanlucas/apex7000"
+  },
+  "homepage": "https://github.com/evanlucas/apex7000",
+  "bugs": {
+    "url": "https://github.com/evanlucas/apex7000/issues"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test tap test/unit/*.js"
+  },
+  "keywords": [
+    "mdb"
+  ]
+}
