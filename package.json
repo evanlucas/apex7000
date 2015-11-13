@@ -1,6 +1,6 @@
 {
   "name": "apex7000",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "package for interfacing with the Apex 7000 bill acceptor",
   "main": "index.js",
   "dependencies": {
